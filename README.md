@@ -1,3 +1,9 @@
+### Live Demo
+
+You can access the deployed application here:
+
+## https://huggingface.co/spaces/KishoreR123/Satellite-Image-Classification
+
 # Satellite Image Classification
 
 ## Overview
@@ -5,16 +11,14 @@
 This project focuses on classifying satellite images into various categories using deep learning techniques. The model is trained on a dataset of satellite images and deployed as a web application for real-time inference.
 
 ## Project Structure
-
+```
 .
 ├── app1.py # Streamlit application for model inference
 ├── static_cnn_colab_final.keras # Pre-trained model file
 ├── Task.ipynb # Jupyter notebook for model training and evaluation
 ├── archive (2).zip # Dataset archive
 └── LICENSE # Project license
-
-vbnet
-Copy code
+```
 
 ## Dataset
 
@@ -35,6 +39,7 @@ The training process is documented in the `Task.ipynb` Jupyter notebook.
 
 The trained model is deployed as a web application using Streamlit. The application allows users to upload satellite images and receive predictions on the image's category.
 
+
 To run the application locally:
 
 1. Install the required dependencies:
@@ -43,14 +48,5 @@ To run the application locally:
    pip install -r requirements.txt
 Run the Streamlit application:
 
-bash
 Copy code
 streamlit run app1.py
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-pgsql
-Copy code
-
-Feel free to modify this template to better fit your project's specifics.
-::contentReference[oaicite:0]{index=0}
